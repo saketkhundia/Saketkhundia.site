@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/saketkhundia.site/static/css/main.f309afef.css",
-    "main.js": "/saketkhundia.site/static/js/main.18380e92.js",
-    "static/js/453.30734260.chunk.js": "/saketkhundia.site/static/js/453.30734260.chunk.js",
-    "index.html": "/saketkhundia.site/index.html",
-    "main.f309afef.css.map": "/saketkhundia.site/static/css/main.f309afef.css.map",
-    "main.18380e92.js.map": "/saketkhundia.site/static/js/main.18380e92.js.map",
-    "453.30734260.chunk.js.map": "/saketkhundia.site/static/js/453.30734260.chunk.js.map"
+    "main.css": "/Saketkhundia.site/static/css/main.f309afef.css",
+    "main.js": "/Saketkhundia.site/static/js/main.b7f4b103.js",
+    "static/js/453.30734260.chunk.js": "/Saketkhundia.site/static/js/453.30734260.chunk.js",
+    "index.html": "/Saketkhundia.site/index.html",
+    "main.f309afef.css.map": "/Saketkhundia.site/static/css/main.f309afef.css.map",
+    "main.b7f4b103.js.map": "/Saketkhundia.site/static/js/main.b7f4b103.js.map",
+    "453.30734260.chunk.js.map": "/Saketkhundia.site/static/js/453.30734260.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f309afef.css",
-    "static/js/main.18380e92.js"
+    "static/js/main.b7f4b103.js"
   ]
 }
