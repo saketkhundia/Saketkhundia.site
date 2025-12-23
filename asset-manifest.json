@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Saketkhundia.site/static/css/main.f309afef.css",
-    "main.js": "/Saketkhundia.site/static/js/main.fd79bcb7.js",
-    "static/js/488.94ba7e7c.chunk.js": "/Saketkhundia.site/static/js/488.94ba7e7c.chunk.js",
-    "index.html": "/Saketkhundia.site/index.html",
-    "main.f309afef.css.map": "/Saketkhundia.site/static/css/main.f309afef.css.map",
-    "main.fd79bcb7.js.map": "/Saketkhundia.site/static/js/main.fd79bcb7.js.map",
-    "488.94ba7e7c.chunk.js.map": "/Saketkhundia.site/static/js/488.94ba7e7c.chunk.js.map"
+    "main.css": "/static/css/main.f309afef.css",
+    "main.js": "/static/js/main.0e6d88a7.js",
+    "static/js/488.94ba7e7c.chunk.js": "/static/js/488.94ba7e7c.chunk.js",
+    "index.html": "/index.html",
+    "main.f309afef.css.map": "/static/css/main.f309afef.css.map",
+    "main.0e6d88a7.js.map": "/static/js/main.0e6d88a7.js.map",
+    "488.94ba7e7c.chunk.js.map": "/static/js/488.94ba7e7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f309afef.css",
-    "static/js/main.fd79bcb7.js"
+    "static/js/main.0e6d88a7.js"
   ]
 }
