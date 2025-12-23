@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Saketkhundia.site/static/css/main.f309afef.css",
-    "main.js": "/Saketkhundia.site/static/js/main.b7f4b103.js",
-    "static/js/453.30734260.chunk.js": "/Saketkhundia.site/static/js/453.30734260.chunk.js",
+    "main.js": "/Saketkhundia.site/static/js/main.fd79bcb7.js",
+    "static/js/488.94ba7e7c.chunk.js": "/Saketkhundia.site/static/js/488.94ba7e7c.chunk.js",
     "index.html": "/Saketkhundia.site/index.html",
     "main.f309afef.css.map": "/Saketkhundia.site/static/css/main.f309afef.css.map",
-    "main.b7f4b103.js.map": "/Saketkhundia.site/static/js/main.b7f4b103.js.map",
-    "453.30734260.chunk.js.map": "/Saketkhundia.site/static/js/453.30734260.chunk.js.map"
+    "main.fd79bcb7.js.map": "/Saketkhundia.site/static/js/main.fd79bcb7.js.map",
+    "488.94ba7e7c.chunk.js.map": "/Saketkhundia.site/static/js/488.94ba7e7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f309afef.css",
-    "static/js/main.b7f4b103.js"
+    "static/js/main.fd79bcb7.js"
   ]
 }
