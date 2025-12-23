@@ -2,7 +2,7 @@
   "name": "Portfolio-Saketkhundia",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://saketkhundia.github.io/Saketkhundia.site",
+  "homepage": "/",
   "dependencies": {
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.23.26",
