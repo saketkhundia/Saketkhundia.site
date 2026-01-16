@@ -89,7 +89,7 @@ function App() {
       {/* Home */}
       <section id="home" className="home">
         <motion.img
-          src="https://raw.githubusercontent.com/saketkhundia/Saketkhundia.site/main/public/photo.jpg"
+         src = "https://raw.githubusercontent.com/saketkhundia/Saketkhundia.site/main/public/photo.jpg"
           alt="Saket"
           className="profile-pic"
           initial={{ scale: 0 }}
