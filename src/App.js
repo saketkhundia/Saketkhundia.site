@@ -43,18 +43,18 @@ function App() {
 
     emailjs
       .sendForm(
-        "service_50dvft5",   // ✅ Your Service ID
-        "template_v1ylskp",  // ✅ Your Template ID
+        "service_50dvft5",  
+        "template_v1ylskp",  
         formRef.current,
-        "gbiJWOPT8mAsiS4VL"  // ✅ Your Public Key
+        "gbiJWOPT8mAsiS4VL"  
       )
       .then(
         () => {
-          setStatus("Message sent successfully ✅");
+          setStatus("Message sent successfully");
           formRef.current.reset();
         },
         (error) => {
-          setStatus("Failed to send ❌");
+          setStatus("Failed to send ");
           console.error("EmailJS Error:", error);
         }
       );
@@ -64,7 +64,7 @@ function App() {
     <div className="app">
       {/* Navbar */}
       <nav className="navbar" role="navigation" aria-label="Main Navigation">
-        <h1 className="logo">Saket's Portfolio Update</h1>
+        <h1 className="logo">Saket's Portfolio </h1>
         <div
           className={`hamburger ${menuOpen ? "active" : ""}`}
           onClick={() => setMenuOpen((v) => !v)}
