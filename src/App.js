@@ -43,18 +43,18 @@ function App() {
 
     emailjs
       .sendForm(
-        "service_50dvft5",   
-        "template_v1ylskp",  
+        "service_50dvft5",   // ✅ Your Service ID
+        "template_v1ylskp",  // ✅ Your Template ID
         formRef.current,
-        "gbiJWOPT8mAsiS4VL"   
+        "gbiJWOPT8mAsiS4VL"  // ✅ Your Public Key
       )
       .then(
         () => {
-          setStatus("Message sent successfully ");
+          setStatus("Message sent successfully ✅");
           formRef.current.reset();
         },
         (error) => {
-          setStatus("Failed to send ");
+          setStatus("Failed to send ❌");
           console.error("EmailJS Error:", error);
         }
       );
@@ -89,7 +89,7 @@ function App() {
       {/* Home */}
       <section id="home" className="home">
         <motion.img
-          src="https://raw.githubusercontent.com/saketkhundia/saket-portfolio/main/photo.jpg"
+          src="https://raw.githubusercontent.com/saketkhundia/Saketkhundia.site/main/public/photo.jpg"
           alt="Saket"
           className="profile-pic"
           initial={{ scale: 0 }}
