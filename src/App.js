@@ -64,7 +64,7 @@ function App() {
     <div className="app">
       {/* Navbar */}
       <nav className="navbar" role="navigation" aria-label="Main Navigation">
-        <h1 className="logo">Saket's Portfolio</h1>
+        <h1 className="logo">Saket's Portfolio Update</h1>
         <div
           className={`hamburger ${menuOpen ? "active" : ""}`}
           onClick={() => setMenuOpen((v) => !v)}
@@ -89,7 +89,7 @@ function App() {
       {/* Home */}
       <section id="home" className="home">
         <motion.img
-         src = "https://raw.githubusercontent.com/saketkhundia/Saketkhundia.site/main/public/photo.jpg"
+          src="./photo.jpg"
           alt="Saket"
           className="profile-pic"
           initial={{ scale: 0 }}
