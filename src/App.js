@@ -114,7 +114,7 @@ const PROJECTS = [
   { name:"Calculator App",   desc:"Clean, functional calculator with expression parsing and history.",        link:"https://saketkhundia.github.io/calculator-app/",                     tag:"Utility",     color:"#00b67a" },
   { name:"Quotes Generator", desc:"Dynamic quote fetcher built in React with category filters and sharing.",  link:"https://github.com/saketkhundia/Quote-Generator-Using-React-",      tag:"React",       color:"#ff5c3e" },
   { name:"To-Do App",        desc:"Task management with local persistence, priority tags, and animations.",   link:"https://github.com/saketkhundia",                                    tag:"Productivity", color:"#8b5cf6" },
-  { name:"Music Player",     desc:"Minimal audio player interface with playlist management and waveform.",    link:"https://github.com/saketkhundia",                                    tag:"Media",       color:"#f59e0b" },
+  { name:"Music Player",     desc:"Minimal audio player interface with playlist management and waveform.",    link:"https://github.com/saketkhundia",                                    tag:"Media",       color:"#f59e0b" },{ name:"DevIQ",            desc:"Developer intelligence dashboard tool.",  link:"https://deviq-bay.vercel.app/",                                    tag:"Tool",          color:"#06b6d4" },
 ];
 
 const CERTS = [
