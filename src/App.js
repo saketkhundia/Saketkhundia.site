@@ -125,6 +125,19 @@ const CERTS = [
 ];
 
 /* ══════════════════════════════════════════
+   SECTION TITLES MAP
+══════════════════════════════════════════ */
+const SECTION_TITLES = {
+  home:      "Home | SaketKumar",
+  about:     "About | SaketKumar",
+  skills:    "Skills | SaketKumar",
+  education: "Education | SaketKumar",
+  projects:  "Projects | SaketKumar",
+  certs:     "Certifications | SaketKumar",
+  contact:   "Contact | SaketKumar",
+};
+
+/* ══════════════════════════════════════════
    HOOKS & COMPONENTS
 ══════════════════════════════════════════ */
 
@@ -358,6 +371,12 @@ export default function App() {
   });
 
   const { toasts, add: addToast, remove: removeToast } = useToast();
+
+  // ── DYNAMIC PAGE TITLE based on active section ──
+  useEffect(() => {
+    document.title = SECTION_TITLES[activeSection] || "SaketKumar";
+  }, [activeSection]);
+
   const formRef   = useRef();
   const cursorRef = useRef();
   const ringRef   = useRef();
@@ -453,7 +472,6 @@ export default function App() {
 
   // Resume download
   const downloadCV = () => {
-    // Replace this URL with your actual resume file URL
     const resumeUrl = "https://raw.githubusercontent.com/saketkhundia/Saketkhundia.site/main/public/resume.pdf";
     const link = document.createElement("a");
     link.href     = resumeUrl;
@@ -546,11 +564,9 @@ export default function App() {
               <motion.div className="hero-ctas"
                 initial={{ opacity:0, y:16 }} animate={{ opacity:1, y:0 }}
                 transition={{ delay:0.7, duration:0.7 }}>
-                {/* Magnetic + Ripple primary button */}
                 <MagneticBtn href="#projects" className="btn-primary" {...ih}>
                   <IconCode /> View Projects
                 </MagneticBtn>
-                {/* Download CV — magnetic */}
                 <MagneticBtn onClick={downloadCV} className="btn-cv" {...ih}>
                   <span className="btn-inner"><IconDownload /> Download CV</span>
                 </MagneticBtn>
@@ -600,7 +616,6 @@ export default function App() {
                 MDU Rohtak with an impressive <strong>8.1 CGPA</strong>. I love crafting clean, performant web experiences
                 and am always chasing the intersection of great design and solid engineering.
               </motion.p>
-              {/* Currently learning badge */}
               <motion.div className="learning-badge"
                 initial={{ opacity:0, y:12 }} whileInView={{ opacity:1, y:0 }}
                 viewport={{ once:true }} transition={{ duration:0.6, delay:0.3 }}>
